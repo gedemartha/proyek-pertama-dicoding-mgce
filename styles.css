@@ -27,6 +27,18 @@ main {
   margin-right: 10%;
 }
 
+ul.interest-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+ul img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
 section.intro p {
   text-align: justify;
 }
